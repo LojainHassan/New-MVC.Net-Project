@@ -28,6 +28,12 @@ namespace AhmadDamra.Controllers
             return View();
         }
 
+
+        public IActionResult InteractionWithUser()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
