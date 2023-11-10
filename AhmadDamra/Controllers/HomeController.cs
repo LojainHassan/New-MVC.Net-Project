@@ -18,7 +18,7 @@ namespace AhmadDamra.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult JsInfo()
         {
             return View();
         }
